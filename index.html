@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SD candika mesra| Beranda</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f0f8ff;
+            line-height: 1.6;
+        }
+
+        /* Bagian Atas / Header */
+        header {
+            background: linear-gradient(135deg, #0066cc, #0099ff);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header img {
+            width: 80px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        /* Menu Navigasi */
+        nav {
+            background-color: #004c99;
+            padding: 10px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 15px;
+            margin: 0 5px;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            background-color: #0073e6;
+            border-radius: 5px;
+        }
+
+        /* Bagian Utama */
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 15px;
+        }
+
+        .banner {
+            width: 100%;
+            height: 200px;
+            background-color: #ccc;
+            background-image: url('https://via.placeholder.com/1200x200/0099ff/ffffff?text=Selamat+Datang+di+Sekolah+Kita');
+            background-size: cover;
+            background-position: center;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .konten {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #0066cc;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #0099ff;
+            padding-bottom: 5px;
+        }
+
+        /* Daftar Guru / Fasilitas */
+        .daftar-item {
+            list-style: none;
+        }
+
+        .daftar-item li {
+            padding: 8px 0;
+            border-bottom: 1px dashed #ddd;
+        }
+
+        /* Bagian Bawah */
+        footer {
+            background-color: #004c99;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+
+        /* Tampilan HP (Responsif) */
+        @media (max-width: 768px) {
+            .konten {
+                grid-template-columns: 1fr;
+            }
+            nav a {
+                padding: 6px 10px;
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Bagian Kepala Sekolah / Judul -->
+    <header>
+        <img src=LOGO" alt="Logo Sekolah">
+        <h1>SD Negeri 01 Contoh</h1>
+        <p>Unggul dalam Prestasi, Berlandaskan Imtaq</p>
+    </header>
+
+    <!-- Menu Halaman -->
+    <nav>
+        <a href="index.html">Beranda</a>
+        <a href="profil.html">Profil</a>
+        <a href="guru.html">Tenaga Pendidik</a>
+        <a href="fasilitas.html">Fasilitas</a>
+        <a href="kontak.html">Kontak</a>
+    </nav>
+
+    <!-- Isi Utama -->
+    <div class="container">
+
+        <div class="banner"></div>
+
+        <div class="konten">
+            <!-- Kolom Kiri: Sambutan & Berita -->
+            <div>
+                <div class="card">
+                    <h2>Sambutan Kepala Sekolah</h2>
+                    <p>Assalamu’alaikum Warahmatullahi Wabarakatuh,</p>
+                    <p>Selamat datang di situs resmi SD Negeri 01 Contoh. Kami berkomitmen memberikan pendidikan terbaik, membentuk karakter anak bangsa yang cerdas, terampil, dan berakhlak mulia. Terima kasih atas kepercayaan masyarakat kepada kami.</p>
+                    <p><strong>- Bapak Ahmad, S.Pd. -</strong></p>
+                </div>
+
+                <div class="card">
+                    <h2>Berita & Pengumuman</h2>
+                    <ul class="daftar-item">
+                        <li>📢 01 Juni: Pendaftaran Peserta Didik Baru Tahun Ajaran 2026/2027 Dibuka</li>
+                        <li>🏆 15 Mei: Siswa Kami Juara 1 Lomba Matematika Tingkat Kecamatan</li>
+                        <li>📚 10 Mei: Libur Hari Raya Idul Adha Sekolah Tutup</li>
+                        <li>⚽ 05 Mei: Latihan Sepak Bola dan Pramuka Setiap Hari Sabtu</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Kolom Kanan: Info Sekolah -->
+            <div>
+                <div class="card">
+                    <h2>Info Sekolah</h2>
+                    <p><strong>Alamat:</strong> Jl. Pendidikan No. 123, Kec. Medan Kota, Sumatera Utara</p>
+                    <p><strong>Telepon:</strong> (061) 123456</p>
+                    <p><strong>Email:</strong> info@sdnegeri01.sch.id</p>
+                    <p><strong>Status:</strong> Negeri - Terakreditasi A</p>
+                </div>
+
+                <div class="card">
+                    <h2>Jadwal Kegiatan</h2>
+                    <ul class="daftar-item">
+                        <li>Senin: Upacara Bendera</li>
+                        <li>Selasa - Kamis: Belajar Efektif</li>
+                        <li>Jumat: Doa Bersama & Olahraga</li>
+                        <li>Sabtu: Ekstrakurikuler</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bagian Bawah -->
+    <footer>
+        <p>&copy; 2026 SD Negeri 01 Contoh. All Rights Reserved.</p>
+        <p>Dibangun dengan ❤️ Menggunakan HTML Sederhana</p>
+    </footer>
+
+</body>
+</html>
